@@ -25,7 +25,7 @@ const TopNavBar = () => {
     <Header className="header">
       <Link to="/">
         <div className="logo">
-          <img src="/assets/laara.svg" alt="Logo" />
+          <img src="../assets/laara.svg" alt="Logo" />
         </div>
       </Link>
       <Menu theme="light" mode="horizontal" className="navbar-menu">
