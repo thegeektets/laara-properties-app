@@ -80,14 +80,17 @@ npm install antd
 
 ## Project Structure
 
-```
 laara-properties-app/
-├── public/                    # Firebase hosting output
-├── src/                       # React components and assets
-├── package.json               # Project settings
-├── vite.config.js             # Vite config
-├── firebase.json              # Firebase config
-└── README.md                  # Project documentation
-```
+├── public/                    # Firebase Hosting output folder
+├── src/                       # React source code
+│   ├── App.jsx                # Main component
+│   ├── components/            # UI components
+│   └── assets/                # Static files like images
+├── node_modules/              # Project dependencies
+├── package.json               # Project configuration
+├── vite.config.js             # Vite configuration
+├── firebase.json              # Firebase Hosting configuration
+├── .gitignore                 # Git ignore configuration
+└── README.md                  # This file
 
 Happy coding!
