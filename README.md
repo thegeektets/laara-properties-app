@@ -2,22 +2,15 @@
 
 **Live Demo**: [laara-properties.web.app](https://laara-properties.web.app/)
 
-This is a property listing application built using **React** and **Vite** for efficient development and performance. It features property search, filters, and a modern UI powered by **Ant Design (AntD)**. The app is deployed on **Firebase Hosting**.
+This app provides a modern property listing interface with search and filter capabilities, built using **React** and **Vite**. It features responsive design elements powered by **Ant Design (AntD)** and is hosted on **Firebase**.
 
 ## Features
 
 - **Fast Development**: Powered by Vite with React Fast Refresh.
-- **Modern UI**: Using Ant Design components for a polished look.
-- **Firebase Hosting**: Deployed for quick and secure access.
+- **Modern UI**: Components styled using Ant Design.
+- **Firebase Hosting**: Seamlessly deployed for easy access.
 
-## Setup Instructions
-
-### Prerequisites
-
-- **Node.js** (v14+)
-- **Firebase CLI**: Install with `npm install -g firebase-tools`
-
-### Getting Started
+## Setup & Installation
 
 1. **Clone the Repository**:
 
@@ -44,42 +37,15 @@ This is a property listing application built using **React** and **Vite** for ef
    npm run build
    ```
 
-### Firebase Hosting Configuration
-
-1. **Initialize Firebase**:
-
-   ```bash
-   firebase init
-   ```
-
-   - Choose **Firebase Hosting**
-   - Set `public` as the output directory
-   - Configure for SPA by redirecting all requests to `index.html`
-
-2. **Deploy to Firebase**:
+5. **Deploy to Firebase**:
 
    ```bash
    firebase deploy
    ```
 
-## Using Ant Design
+## Directory Structure
 
-Import and use Ant Design components as needed:
-
-```jsx
-import { Button } from 'antd';
-
-<Button type="primary">Click Me</Button>;
 ```
-
-Install Ant Design:
-
-```bash
-npm install antd
-```
-
-## Project Structure
-
 laara-properties-app/
 ├── public/                    # Firebase Hosting output folder
 ├── src/                       # React source code
@@ -92,5 +58,40 @@ laara-properties-app/
 ├── firebase.json              # Firebase Hosting configuration
 ├── .gitignore                 # Git ignore configuration
 └── README.md                  # This file
+```
+
+## Using Ant Design
+
+Install Ant Design and import components as needed:
+
+```bash
+npm install antd
+```
+
+```jsx
+import { Button } from 'antd';
+
+<Button type="primary">Click Me</Button>;
+```
+
+## Firebase Hosting Setup
+
+1. **Initialize Firebase**:
+
+   ```bash
+   firebase init
+   ```
+
+   - Select **Firebase Hosting**.
+   - Use `public` as the output directory.
+   - Configure it for a single-page app (SPA) by rewriting all routes to `index.html`.
+
+2. **Deploy**:
+
+   ```bash
+   firebase deploy
+   ```
+
+---
 
 Happy coding!
