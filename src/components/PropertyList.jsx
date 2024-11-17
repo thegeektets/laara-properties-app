@@ -28,7 +28,7 @@ const PropertyList = () => {
         }}
       >
         <Spin tip="Loading" size="large">
-          Loading properties
+          Loading properties ...
         </Spin>
       </div>
     );

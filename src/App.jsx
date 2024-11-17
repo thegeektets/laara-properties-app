@@ -18,7 +18,7 @@ function App() {
           <Content className="content">
             <Routes>
               <Route path="/" element={<PropertyList />} />
-              <Route path="/details" element={<PropertyDetails />} />
+              <Route path="/details/:id" element={<PropertyDetails />} />
             </Routes>
           </Content>
         </Layout>
