@@ -1,7 +1,7 @@
 // src/slices/propertiesSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-
+// :TODO: Move to .env
 const API_BASE_URL =
   "https://laara-api-dev-3rc4fb3npa-ew.a.run.app/search/stays";
 const APP_ID = "3a2f3e5b-4a89-4fcb-a7e1-31421c7a6344";
